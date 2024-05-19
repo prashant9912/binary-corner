@@ -1,6 +1,6 @@
 "use client";
 
-export function SidebarComponent({ children }) {
+export function SidebarComponent({ children }: { children: React.ReactNode }) {
   return (
     <div>
       <button
